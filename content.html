@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="logo">Homework Tracker</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="collabo.html">Collaboration Tool</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <h2>Homework Tracker Form</h2>
+
+            <form id="homeworkForm">
+                <input type="text" id="taskInput" placeholder="Add New Task">
+                <input type="date" id="deadlineInput">
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="taskList"></ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
